@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>A Web Page</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+<!--=====================
+	=======NAVBAR========
+	=====================-->
+	<header>
+    	<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 ">
+					<h1 class="text-center">
+						Sistem Informasi Wisata Kota Depok - SIWIKODE
+					</h1>
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a class="nav-link" href="landing_page.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="halaman_wisata_rekreasi.html">Wisata Rekreasi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="halaman_wisata_kuliner.html">Wisata Kuliner </a>
+						</li>
+						<li>
+							<div class="dropdown">
+							  <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">
+							   Registrasi
+							  </button>
+							  <div class="dropdown-menu">
+							    <a class="dropdown-item" href="form_reg_kuliner.html">Wisata Kuliner</a>
+							    <a class="dropdown-item" href="form_reg_rekreasi.html">Wisata Rekreasi</a>
+							  </div>
+							</div>							
+						</li>
+						<li class="nav-item dropdown ml-md-auto">
+							 <a class="nav-link " href="login.html" id="login">Login</a>
+						</li>
+					</ul>				
+				</div>
+			</div>
+		</div>
+	</header>
+<!--=====================
+=========NAV END=========
+=====================-->
+
+<!-- ===================
+=========BODY===========
+==================== -->
+	<content>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7">
+                </div>
+                <div class="col-md-5">
+                    <nav>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="landing_page.html">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="index.html">Admin</a>
+                            </li>
+                            <li class="breadcrumb-item active">
+                                Kelola Wisata Rekreasi
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>            
+        </div>
+        <!-- table -->
+            <div class="row">
+	        	<div class="col-md-12">
+		        	<form action="">
+		        		<div class="col-md-12">
+				        	<fieldset>
+				        		<legend>Kelola Data Wisata Rekreasi</legend>
+				        	</fieldset>        				        			
+		        		</div>
+		                <div class="col-md-12">
+		                    <table class="table table-striped">
+		                       <tr>
+		                           <td>NO</td>
+		                           <td>NAMA</td>
+		                           <td>JENIS WISATA</td>
+		                           <td>RATING</td>
+		                           <td>KONTAK PERSON</td>
+		                           <td>UPLOAD FOTO</td>
+		                           <td>ACTION</td>
+		                       </tr>
+		                       <tr>
+		                           <td>1</td>
+		                           <td>Kebun Binatang Ragunan</td>
+		                           <td>Margasatwa</td>
+		                           <td>&#10025; &#10025; &#10025; &#10025;</td>
+		                           <td>Muhamad Nada</td>
+		                           <td><a href="https://ragunanzoo.jakarta.go.id/language/id/">kunjungi kami disitus resmi kami</a></td>
+		                           <td><a href="detail_wisata_rekreasi_ragunan.html">view</a>  | <a href="edit_rekreasi.html">edit</a> | <a href="#">delete</a> </td>  
+		                       </tr>
+		                       <tr>
+		                           <td>2</td>
+		                           <td>Masjid Kubah Mas Depok</td>
+		                           <td>Religi</td>
+		                           <td>&#10025; &#10025; &#10025; &#10025; &#10025;</td>
+		                           <td>Zahrah Suryani</td>
+		                           <td><a href="https://www.google.com/search?safe=strict&client=firefox-b-d&sxsrf=ALeKk00JCI_yopbbJwn1olMgw6CFgn9xLQ:1608741436859&ei=C3LjX-zPJ4_D3LUPoPSU4AI&q=website%20kubah%20emas&oq=website+kubah+emas&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQI6BwgjELACECc6BAgAEA06BggAEAcQHjoICAAQBxAKEB46CAgAEAgQBxAeUI2QAliCpwJgv6wCaABwAXgAgAFmiAGfBZIBAzcuMZgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=2ahUKEwibgoTvxOTtAhWhgtgFHW1MAjgQvS4wAHoECAsQHA&uact=5&tbs=lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2&tbm=lcl&rflfq=1&num=10&rldimm=8808026359666452946&lqi=ChJ3ZWJzaXRlIGt1YmFoIGVtYXNaHQoHd2Vic2l0ZSISd2Vic2l0ZSBrdWJhaCBlbWFz&rlst=f#rlfi=hd:;si:8808026359666452946,l,ChJ3ZWJzaXRlIGt1YmFoIGVtYXNaHQoHd2Vic2l0ZSISd2Vic2l0ZSBrdWJhaCBlbWFz;mv:[[-6.377833799999999,106.7742868],[-6.3853785,106.7517433]];tbs:lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2">Kunjungi kami disitus resmi kami</a></td>
+		                           <td><a href="detail_wisata_rekreasi_masjid.html">view</a>  | <a href="edit_rekreasi.html">edit</a> | <a href="#">delete</a> </td>
+		                       </tr>
+		                       <tr>
+		                        <td>2</td>
+		                        <td>Depok Fantasi Waterpark - Aladin</td>
+		                        <td>Kolam Renang</td>
+		                        <td>&#10025; &#10025; &#10025; &#10025;</td>
+		                        <td>Muji Imansyah</td>
+		                        <td><a href="https://www.google.com/search?safe=strict&client=firefox-b-d&sxsrf=ALeKk00JCI_yopbbJwn1olMgw6CFgn9xLQ%3A1608741436859&ei=PHLjX5v0M6GF4t4P7ZiJwAM&q=kolem+renang+aladin&oq=kolem+renang+aladin&gs_lcp=CgZwc3ktYWIQAzoECAAQRzoECCMQJzoHCCMQ6gIQJzoECAAQQzoFCAAQsQM6CAgAELEDEIMBOgQILhBDOgIIADoHCCMQsQIQJzoKCAAQsQMQgwEQCjoECAAQCjoHCAAQsQMQCjoKCAAQxwEQrwEQCjoGCAAQDRAKOggIABAWEAoQHjoICAAQCBANEB5QgShYvmdgrYUBaAJwAngEgAGsAYgBghaSAQQ5LjE3mAEAoAEBqgEHZ3dzLXdperABCsgBCMABAQ&sclient=psy-ab&ved=0ahUKEwibgoTvxOTtAhWhgtgFHW1MAjgQ4dUDCAw&uact=5">Kunjungi kami disitus resmi kami</a></td>
+		                        <td><a href="detail_wisata_rekreasi_aladin.html">view</a>  | <a href="edit_rekreasi.html">edit</a> | <a href="#">delete</a> </td>
+		                       </tr>
+		                    </table>
+		                </div>
+            		</form>
+            	</div>
+            </div>
+           <!-- button -->
+           <div class="row">
+				<div class="col-md-2 ml-3">
+					<input type="submit" class="btn btn-outline-warning" value="tambah baru">
+				</div>
+           </div>
+	</content>
+<!-- ===================
+=======BODY END=========
+==================== -->
+
+
+<!--=====================
+======= Footer ======
+=====================-->
+	<footer>
+		<div class="row mt-3">
+			<div class="col-md-12 col-sm-12 col-xs-12 "> 
+				<address>
+					 <p> Develop By Muhamad Rizki - Pretti Nada Cahaya Irawan - Tamma yusuf surya - Izzudin Alqosam &#64;STT-NF  2020 </p>
+				</address>
+			</div>
+		</div>
+	</footer>
+
+<!--=====================
+======= END =========
+=====================-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

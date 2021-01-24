@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>A Web Page</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+<!--=====================
+	=======NAVBAR========
+	=====================-->
+	<header>
+    	<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 ">
+					<h1 class="text-center">
+						Sistem Informasi Wisata Kota Depok - SIWIKODE
+					</h1>
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a class="nav-link  " href="landing_page.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="halaman_wisata_rekreasi.html">Wisata Rekreasi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="halaman_wisata_kuliner.html">Wisata Kuliner </a>
+						</li>
+                        <li>
+                            <div class="dropdown">
+                              <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown">
+                               Registrasi
+                              </button>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="form_reg_kuliner.html">Wisata Kuliner</a>
+                                <a class="dropdown-item" href="form_reg_rekreasi.html">Wisata Rekreasi</a>
+                              </div>
+                            </div>                          
+                        </li>
+						<li class="nav-item dropdown ml-md-auto">
+							 <a class="nav-link active " href="login.html" id="login">Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+<!--=====================
+=========NAV END=========
+=====================-->
+
+<!-- ===================
+=========BODY===========
+==================== -->
+	<section>
+		<div class="container">
+	        <div class="row">
+	            <div class="card mt-5 mb-5 col-md-12">
+	                <div class="card-body">
+	                    <div class="row">
+	                        <div class="col">
+	                            <img width="600px" src="asset\img\lg.jpg" alt="gambar">
+	                        </div>
+	                        <div class="col">
+	                            <h1 class="text-center" style="color: rgb(54, 134, 117);">Login</h1>
+	                            <form action="">
+	                                <div class="mb-3">
+	                                    <label for="">Username</label>
+	                                    <input type="text" class="form-control" id="username" required="">
+	                                </div>
+	                                <div class="mb-3">
+	                                    <label for="">Password</label>
+	                                    <input type="password" class="form-control" id="password" required="">
+	                                </div>
+	                                <div class="d-grid gap-2">
+	                                    <button class="btn btn-primary" type="button" onclick="login()">Login</button>
+	                                </div>
+	                            </form>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+    	</div>
+	</section>
+<!-- ===================
+=======BODY END=========
+==================== -->
+
+
+<!--=====================
+======= Footer ======
+=====================-->
+	<footer>
+		<div class="row mt-3">
+			<div class="col-md-12 col-sm-12 col-xs-12 "> 
+				<address>
+					 <p> Develop By Muhamad Rizki - Pretti Nada Cahaya Irawan - Tamma yusuf surya - Izzudin Alqosam &#64;STT-NF  2020 </p>
+				</address>
+			</div>
+		</div>
+	</footer>
+
+<!--=====================
+======= END =========
+=====================-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
